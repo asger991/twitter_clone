@@ -1,0 +1,21 @@
+<%
+=begin%>
+%provide(:title, @user.name)
+%div.row
+%aside.col-md-4
+%section.user-info
+%h1= %gravatar_for @user, @user.name 
+<%
+=end%>
+
+<div class="row">
+  <aside class="col-md-4">
+    <section class="user-info">
+      <h1>
+        <%= gravatar_for @user %>
+        <%= @user.name %>
+      </h1>
+    </section>
+  </aside>
+</div>
+
