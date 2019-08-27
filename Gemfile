@@ -31,6 +31,9 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'haml', '~> 5.1', '>= 5.1.2'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.5'
+gem 'faker', '1.7.3'
+gem 'will_paginate',           '3.1.7'
+gem 'bootstrap-will_paginate', '1.0.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

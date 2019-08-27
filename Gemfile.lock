@@ -66,6 +66,8 @@ GEM
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
+    bootstrap-will_paginate (1.0.0)
+      will_paginate
     builder (3.2.3)
     byebug (11.0.1)
     coderay (1.1.2)
@@ -73,6 +75,8 @@ GEM
     crass (1.0.4)
     erubi (1.8.0)
     execjs (2.7.0)
+    faker (1.7.3)
+      i18n (~> 0.5)
     ffi (1.11.1)
     formatador (0.2.5)
     globalid (0.4.2)
@@ -93,7 +97,7 @@ GEM
     haml (5.1.2)
       temple (>= 0.8.0)
       tilt
-    i18n (1.6.0)
+    i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     jbuilder (2.9.1)
       activesupport (>= 4.2.0)
@@ -221,6 +225,7 @@ GEM
     websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.4)
+    will_paginate (3.1.7)
     zeitwerk (2.1.9)
 
 PLATFORMS
@@ -230,7 +235,9 @@ DEPENDENCIES
   bcrypt (= 3.1.12)
   bootsnap (>= 1.4.2)
   bootstrap-sass (= 3.3.7)
+  bootstrap-will_paginate (= 1.0.0)
   byebug
+  faker (= 1.7.3)
   guard (~> 2.13.0)
   guard-minitest (~> 2.4.0)
   haml (~> 5.1, >= 5.1.2)
@@ -250,6 +257,7 @@ DEPENDENCIES
   tzinfo-data
   web-console (>= 3.3.0)
   webpacker (~> 4.0)
+  will_paginate (= 3.1.7)
 
 RUBY VERSION
    ruby 2.6.3p62
