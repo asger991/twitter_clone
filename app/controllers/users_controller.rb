@@ -1,8 +1,8 @@
 class UsersController < ApplicationController
   attr_accessor :name, :email
-  before_action :logged_in_user, only: [:index, :edit, :update]
-  before_action :correct_user, only: [:edit, :update]
-  before_action :admin_user,     only: :destroy
+  before_action :logged_in_user,    only: [:index, :edit, :update]
+  before_action :correct_user,      only: [:edit, :update]
+  before_action :admin_user,        only: :destroy
   
   def new
     @user = User.new
